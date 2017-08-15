@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="602" started-at="2017-08-11T04:04:50Z" finished-at="2017-08-11T04:04:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="602" started-at="2017-08-11T04:04:50Z" finished-at="2017-08-11T04:04:50Z">
+      <class name="co.edu.uelbosque.swii.calculadoraM.NewTest">
+        <test-method status="PASS" signature="deboDividirCorrectamente()[pri:0, instance:co.edu.uelbosque.swii.calculadoraM.NewTest@2bcfcb]" name="deboDividirCorrectamente" duration-ms="114" started-at="2017-08-10T23:04:50Z" finished-at="2017-08-10T23:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deboDividirCorrectamente -->
+        <test-method status="PASS" signature="deboMultiplicarCorrectamente()[pri:0, instance:co.edu.uelbosque.swii.calculadoraM.NewTest@2bcfcb]" name="deboMultiplicarCorrectamente" duration-ms="4" started-at="2017-08-10T23:04:50Z" finished-at="2017-08-10T23:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deboMultiplicarCorrectamente -->
+        <test-method status="PASS" signature="deboRestarCorrectamente()[pri:0, instance:co.edu.uelbosque.swii.calculadoraM.NewTest@2bcfcb]" name="deboRestarCorrectamente" duration-ms="5" started-at="2017-08-10T23:04:50Z" finished-at="2017-08-10T23:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deboRestarCorrectamente -->
+        <test-method status="PASS" signature="deboSumarCorrectamente()[pri:0, instance:co.edu.uelbosque.swii.calculadoraM.NewTest@2bcfcb]" name="deboSumarCorrectamente" duration-ms="6" started-at="2017-08-10T23:04:50Z" finished-at="2017-08-10T23:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deboSumarCorrectamente -->
+        <test-method status="PASS" signature="laOperacionDivisionExiste()[pri:0, instance:co.edu.uelbosque.swii.calculadoraM.NewTest@2bcfcb]" name="laOperacionDivisionExiste" duration-ms="4" started-at="2017-08-10T23:04:50Z" finished-at="2017-08-10T23:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- laOperacionDivisionExiste -->
+        <test-method status="PASS" signature="laOperacionMultiplicacionExiste()[pri:0, instance:co.edu.uelbosque.swii.calculadoraM.NewTest@2bcfcb]" name="laOperacionMultiplicacionExiste" duration-ms="7" started-at="2017-08-10T23:04:50Z" finished-at="2017-08-10T23:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- laOperacionMultiplicacionExiste -->
+        <test-method status="PASS" signature="laOperacionRestaExiste()[pri:0, instance:co.edu.uelbosque.swii.calculadoraM.NewTest@2bcfcb]" name="laOperacionRestaExiste" duration-ms="3" started-at="2017-08-10T23:04:50Z" finished-at="2017-08-10T23:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- laOperacionRestaExiste -->
+        <test-method status="PASS" signature="laOperacionSumaExiste()[pri:0, instance:co.edu.uelbosque.swii.calculadoraM.NewTest@2bcfcb]" name="laOperacionSumaExiste" duration-ms="146" started-at="2017-08-10T23:04:50Z" finished-at="2017-08-10T23:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- laOperacionSumaExiste -->
+        <test-method status="PASS" signature="noDebeEncontrarlaOperacionPotencia()[pri:0, instance:co.edu.uelbosque.swii.calculadoraM.NewTest@2bcfcb]" name="noDebeEncontrarlaOperacionPotencia" duration-ms="3" started-at="2017-08-10T23:04:50Z" finished-at="2017-08-10T23:04:50Z">
+          <exception class="co.edu.uelbosque.swii.calculadoraM.ComandoNoEncontradoException">
+            <full-stacktrace>
+              <![CDATA[co.edu.uelbosque.swii.calculadoraM.ComandoNoEncontradoException
+	at co.edu.uelbosque.swii.calculadoraM.EncontrarComando.cmd(EncontrarComando.java:14)
+	at co.edu.uelbosque.swii.calculadoraM.NewTest.noDebeEncontrarlaOperacionPotencia(NewTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- co.edu.uelbosque.swii.calculadoraM.ComandoNoEncontradoException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noDebeEncontrarlaOperacionPotencia -->
+        <test-method status="PASS" signature="operacionCompleta()[pri:0, instance:co.edu.uelbosque.swii.calculadoraM.NewTest@2bcfcb]" name="operacionCompleta" duration-ms="6" started-at="2017-08-10T23:04:50Z" finished-at="2017-08-10T23:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operacionCompleta -->
+        <test-method status="PASS" signature="validaNumero()[pri:0, instance:co.edu.uelbosque.swii.calculadoraM.NewTest@2bcfcb]" name="validaNumero" duration-ms="2" started-at="2017-08-10T23:04:50Z" finished-at="2017-08-10T23:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validaNumero -->
+      </class> <!-- co.edu.uelbosque.swii.calculadoraM.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
